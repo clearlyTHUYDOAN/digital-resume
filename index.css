@@ -1,0 +1,60 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Crimson Text', serif;
+  animation: fadein 1.5s;
+  -webkit-animation: fadein 1.5s;
+  }
+  @keyframes fadein {
+      from{opacity: 0;}
+      to{opacity: 1;}
+  }
+  @-webkit-keyframes fadein{
+      from{opacity:0;}
+      to{opacity:1;};
+}
+
+.container {
+  height: 100vh;
+}
+
+.vert-hero {
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+  background-image: url("./assets/ThuyMidSummer-4461.jpg");
+  background-size: cover;
+  background-position: 0% 60%;
+}
+
+.bio {
+  height: 100%;
+  width: 50%;
+  float: right;
+  background-color: white;
+}
+
+.bio > h1 {
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: black;
+  padding: 100px 60px 20px 60px;
+}
+
+.bio > p {
+  font-size: 1.1em;
+  color: grey;
+  padding: 10px 60px;
+}
+
+a {
+  color: rgba(165, 149, 89, 0.8);
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8C8C72;
+}
