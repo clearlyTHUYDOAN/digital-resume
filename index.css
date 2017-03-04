@@ -31,6 +31,17 @@ html, body {
   margin-left: 1em;
 }
 
+.nav-social {
+  position: relative;
+  margin-left: 60px;
+  margin-top: 5em;
+}
+
+.social-icons {
+  opacity: 0.5;
+  margin-right: 0.4em;
+}
+
 .vert-hero {
   height: 100%;
   width: 50%;
