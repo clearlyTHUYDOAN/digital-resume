@@ -58,6 +58,7 @@ html, body {
   float: right;
   background-color: white;
   overflow: auto;
+  position: relative;
 }
 
 .bio > h1 {
