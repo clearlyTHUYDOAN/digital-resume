@@ -1,0 +1,23 @@
+{
+  "name": "digital-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clearlyTHUYDOAN/digital-resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clearlyTHUYDOAN/digital-resume/issues"
+  },
+  "homepage": "https://github.com/clearlyTHUYDOAN/digital-resume#readme",
+  "dependencies": {
+    "express": "^4.15.0"
+  }
+}
