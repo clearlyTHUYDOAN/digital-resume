@@ -52,6 +52,14 @@ html, body {
   background-position: 0% 60%;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .vert-hero {
+    height: 40%;
+    width: 100%;
+    display: block;
+  }
+}
+
 .bio {
   height: 100%;
   width: 50%;
@@ -59,6 +67,14 @@ html, body {
   background-color: white;
   overflow: auto;
   position: relative;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .bio {
+    height: 60%;
+    width: 100%;
+    float: none;
+  }
 }
 
 .bio > h1 {
