@@ -48,11 +48,6 @@ html, body {
   width: 50%;
   display: inline-block;
   background-image: url("./assets/ThuyMidSummer-4461.jpg");
-  background-repeat: no-repeat;
-   background-attachment: fixed;
-   -o-background-size: cover;
-   -moz-background-size: cover;
-   -webkit-background-size: cover;
   background-size: cover;
   background-position: 0% 60%;
 }
